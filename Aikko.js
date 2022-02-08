@@ -582,26 +582,6 @@ Nomor : wa.me/${owner}
 │➸ぁ ${prefix}sound48
 │➸ぁ ${prefix}sound49
 │➸ぁ ${prefix}sound50
-│➸ぁ ${prefix}sound51
-│➸ぁ ${prefix}sound52
-│➸ぁ ${prefix}sound53
-│➸ぁ ${prefix}sound54
-│➸ぁ ${prefix}sound55
-│➸ぁ ${prefix}sound56
-│➸ぁ ${prefix}sound57
-│➸ぁ ${prefix}sound58
-│➸ぁ ${prefix}sound59
-│➸ぁ ${prefix}sound60
-│➸ぁ ${prefix}sound61
-│➸ぁ ${prefix}sound62
-│➸ぁ ${prefix}sound63
-│➸ぁ ${prefix}sound64
-│➸ぁ ${prefix}sound65
-│➸ぁ ${prefix}sound66
-│➸ぁ ${prefix}sound67
-│➸ぁ ${prefix}sound68
-│➸ぁ ${prefix}sound69
-│➸ぁ ${prefix}sound70
 ╰─────────────╯
 
 *Other Menu*
@@ -899,79 +879,209 @@ break
 
 //══════════[GAME MENU]════════════════════════════//
 case 'sound1':
-      case 'sound2':
-      case 'sound3':
-      case 'sound4':
-      case 'sound5':
-      case 'sound6':
-      case 'sound7':
-      case 'sound8':
-      case 'sound9':
-      case 'sound10':
-      case 'sound11':
-      case 'sound12':
-      case 'sound13':
-      case 'sound14':
-      case 'sound15':
-      case 'sound16':
-      case 'sound17':
-      case 'sound18':
-      case 'sound19':
-      case 'sound20':
-      case 'sound21':
-      case 'sound22':
-      case 'sound23':
-      case 'sound24':
-      case 'sound25':
-      case 'sound26':
-      case 'sound27':
-      case 'sound28':
-      case 'sound29':
-      case 'sound30':
-      case 'sound31':
-      case 'sound32':
-      case 'sound33':
-      case 'sound34':
-      case 'sound35':
-      case 'sound36':
-      case 'sound37':
-      case 'sound38':
-      case 'sound39':
-      case 'sound40':
-      case 'sound41':
-      case 'sound42':
-      case 'sound43':
-      case 'sound44':
-      case 'sound45':
-      case 'sound46':
-      case 'sound47':
-      case 'sound48':
-      case 'sound49':
-      case 'sound50':
-      case 'sound51':
-      case 'sound52':
-      case 'sound53':
-      case 'sound54':
-      case 'sound55':
-      case 'sound56':
-      case 'sound57':
-      case 'sound58':
-      case 'sound59':
-      case 'sound60':
-      case 'sound61':
-      case 'sound62':
-      case 'sound63':
-      case 'sound64':
-      case 'sound65':
-      case 'sound66':
-      case 'sound67':
-      case 'sound68':
-      case 'sound69':
-      case 'sound70':
-      reply(mess.wait)
-      omkeh = await getBuffer(`https://hansxd.nasihosting.com/sound/${command}.mp3`)
-      Aikko.sendMessage(from, omkeh, MessageType.audio, { quoted: ftrol, mimetype: 'audio/mp4', ptt: true })
-          break
+satu = fs.readFileSync('./lib/sound1.mp3');
+Aikko.sendMessage(from, satu, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'sound2':
+dua = fs.readFileSync('./lib/sound2.mp3');
+Aikko.sendMessage(from, dua, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'sound3':
+tiga = fs.readFileSync('./lib/sound3.mp3');
+Aikko.sendMessage(from, tiga, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'sound4':
+empat = fs.readFileSync('./lib/sound4.mp3');
+Aikko.sendMessage(from, empat, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'sound5':
+lima = fs.readFileSync('./lib/sound5.mp3');
+Aikko.sendMessage(from, lima, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'sound6':
+enam = fs.readFileSync('./lib/sound6.mp3');
+Aikko.sendMessage(from, enam, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'sound7':
+tujuh = fs.readFileSync('./lib/sound7.mp3');
+Aikko.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break									
+case 'sound8':
+delapan = fs.readFileSync('./lib/sound8.mp3');
+Aikko.sendMessage(from, delapan, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'sound9':
+sembilan = fs.readFileSync('./lib/sound9.mp3');
+Aikko.sendMessage(from, sembilan, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'sound10':
+sepuluh = fs.readFileSync('./lib/sound10.mp3');
+Aikko.sendMessage(from, sepuluh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'sound11':
+sebelas = fs.readFileSync('./lib/sound11.mp3');
+Aikko.sendMessage(from, sebelas, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'sound12':
+duabelas = fs.readFileSync('./lib/sound12.mp3');
+Aikko.sendMessage(from, duabelas, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'sound13':
+tigabelas = fs.readFileSync('./lib/sound13.mp3');
+Aikko.sendMessage(from, tigabelas, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'sound14':
+empatbelas = fs.readFileSync('./lib/sound14.mp3');
+Aikko.sendMessage(from, empatbelas, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'sound15':
+limabelas = fs.readFileSync('./lib/sound15.mp3');
+Aikko.sendMessage(from, limabelas, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'sound16':
+enambelas = fs.readFileSync('./lib/sound16.mp3');
+Aikko.sendMessage(from, enambelas, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'sound17':
+tujuhbelas = fs.readFileSync('./lib/sound17.mp3');
+Aikko.sendMessage(from, tujuhbelas, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'sound118':
+delapanbelas = fs.readFileSync('./lib/sound18.mp3');
+Aikko.sendMessage(from, delapanbelas, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'sound19':
+sembilanbelas = fs.readFileSync('./lib/sound19.mp3');
+Aikko.sendMessage(from, sembilanbelas, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'sound20':
+duapuluh = fs.readFileSync('./lib/sound20.mp3');
+Aikko.sendMessage(from, duapuluh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'sound21':
+duasatu = fs.readFileSync('./lib/sound21.mp3');
+Aikko.sendMessage(from, duasatu, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'sound22':
+duadua = fs.readFileSync('./lib/sound22.mp3');
+Aikko.sendMessage(from, duadua, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'sound23':
+duatiga = fs.readFileSync('./lib/sound23.mp3');
+Aikko.sendMessage(from, duatiga, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'sound24':
+duaempat = fs.readFileSync('./lib/sound24.mp3');
+Aikko.sendMessage(from, duaempat, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'sound25':
+dualima = fs.readFileSync('./lib/sound25.mp3');
+Aikko.sendMessage(from, dualima, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'sound26':
+duaenam = fs.readFileSync('./lib/sound26.mp3');
+Aikko.sendMessage(from, duaenam, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'sound27':
+duatujuh = fs.readFileSync('./lib/sound27.mp3');
+Aikko.sendMessage(from, duatujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'sound28':
+duadelapan = fs.readFileSync('./lib/sound28.mp3');
+Aikko.sendMessage(from, duadelapan, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'sound29':
+duasembilan = fs.readFileSync('./lib/sound29.mp3');
+Aikko.sendMessage(from, duasembilan, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'sound30':
+tigapuluh = fs.readFileSync('./lib/sound30.mp3');
+Aikko.sendMessage(from, tigapuluh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'sound31':
+tigasatu = fs.readFileSync('./lib/sound31.mp3');
+Aikko.sendMessage(from, tigasatu, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'sound32':
+tigadua = fs.readFileSync('./lib/sound32.mp3');
+Aikko.sendMessage(from, tigadua, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'sound33':
+tigatiga = fs.readFileSync('./lib/sound33.mp3');
+Aikko.sendMessage(from, tigatiga, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'sound34':
+tigaempat = fs.readFileSync('./lib/sound34.mp3');
+Aikko.sendMessage(from, tigaempat, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'sound35':
+tigalima = fs.readFileSync('./lib/sound35.mp3');
+Aikko.sendMessage(from, tigalima, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'sound35':
+tigalima = fs.readFileSync('./lib/sound35.mp3');
+Aikko.sendMessage(from, tigalima, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'sound36':
+tigaenam = fs.readFileSync('./lib/sound36.mp3');
+Aikko.sendMessage(from, tigaenam, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'sound37':
+tigatujuh = fs.readFileSync('./lib/sound37.mp3');
+Aikko.sendMessage(from, tigatujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'sound38':
+tigadelapan = fs.readFileSync('./lib/sound38.mp3');
+Aikko.sendMessage(from, tigadelapan, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'sound39':
+tigasembilan = fs.readFileSync('./lib/sound39.mp3');
+Aikko.sendMessage(from, tigasembilan, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'sound40':
+empatpuluh = fs.readFileSync('./lib/sound40.mp3');
+Aikko.sendMessage(from, empatpuluh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'sound41':
+empatsatu = fs.readFileSync('./lib/sound41.mp3');
+Aikko.sendMessage(from, empatsatu, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'sound42':
+empatdua = fs.readFileSync('./lib/sound42.mp3');
+Aikko.sendMessage(from, empatdua, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'sound43':
+empattiga = fs.readFileSync('./lib/sound43.mp3');
+Aikko.sendMessage(from, empattiga, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'sound44':
+empatempat = fs.readFileSync('./lib/sound44.mp3');
+Aikko.sendMessage(from, empatempat, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'sound45':
+empatlima = fs.readFileSync('./lib/sound45.mp3');
+Aikko.sendMessage(from, empatlima, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'sound46':
+empatenam = fs.readFileSync('./lib/sound46.mp3');
+Aikko.sendMessage(from, empatenam, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'sound47':
+empattujuh = fs.readFileSync('./lib/sound47.mp3');
+Aikko.sendMessage(from, empattujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'sound48':
+empatdelapan = fs.readFileSync('./lib/sound48.mp3');
+Aikko.sendMessage(from, empatdelapan, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'sound49':
+empatsembilan = fs.readFileSync('./lib/sound49.mp3');
+Aikko.sendMessage(from, empatsembilan, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
+case 'sound50':
+limapuluh = fs.readFileSync('./lib/sound50.mp3');
+Aikko.sendMessage(from, limapuluh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+break
 //══════════[ owner ]══════════//
 case 'owner':
 members_ids = []
