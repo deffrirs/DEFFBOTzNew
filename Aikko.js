@@ -1,8 +1,15 @@
- /*NEWBASE BUATAN AIKKO GANZ BEBAS REMCODE
+ /*NEWBASE BUATAN AIKKO GANZ
    TQ TO :
     DhaniGans (guru saia)
     rapli (partner)
     arga (tmn)*/
+/*RECODE BY DEFFBOTz
+   TQ TO :
+   Zeeone OFC
+   Ramdani Gans
+   Aikko Gans
+   Herman Channel
+   Project Pemuda
 
 const
 	{
@@ -537,51 +544,6 @@ Nomor : wa.me/${owner}
 │➸ぁ ${prefix}sound3
 │➸ぁ ${prefix}sound4
 │➸ぁ ${prefix}sound5
-│➸ぁ ${prefix}sound6
-│➸ぁ ${prefix}sound7
-│➸ぁ ${prefix}sound8
-│➸ぁ ${prefix}sound9
-│➸ぁ ${prefix}sound10
-│➸ぁ ${prefix}sound11
-│➸ぁ ${prefix}sound12
-│➸ぁ ${prefix}sound13
-│➸ぁ ${prefix}sound14
-│➸ぁ ${prefix}sound15
-│➸ぁ ${prefix}sound16
-│➸ぁ ${prefix}sound17
-│➸ぁ ${prefix}sound18
-│➸ぁ ${prefix}sound19
-│➸ぁ ${prefix}sound20
-│➸ぁ ${prefix}sound21
-│➸ぁ ${prefix}sound22
-│➸ぁ ${prefix}sound23
-│➸ぁ ${prefix}sound24
-│➸ぁ ${prefix}sound25
-│➸ぁ ${prefix}sound26
-│➸ぁ ${prefix}sound27
-│➸ぁ ${prefix}sound28
-│➸ぁ ${prefix}sound29
-│➸ぁ ${prefix}sound30
-│➸ぁ ${prefix}sound31
-│➸ぁ ${prefix}sound32
-│➸ぁ ${prefix}sound33
-│➸ぁ ${prefix}sound34
-│➸ぁ ${prefix}sound35
-│➸ぁ ${prefix}sound36
-│➸ぁ ${prefix}sound37
-│➸ぁ ${prefix}sound38
-│➸ぁ ${prefix}sound39
-│➸ぁ ${prefix}sound40
-│➸ぁ ${prefix}sound41
-│➸ぁ ${prefix}sound42
-│➸ぁ ${prefix}sound43
-│➸ぁ ${prefix}sound44
-│➸ぁ ${prefix}sound45
-│➸ぁ ${prefix}sound46
-│➸ぁ ${prefix}sound47
-│➸ぁ ${prefix}sound48
-│➸ぁ ${prefix}sound49
-│➸ぁ ${prefix}sound50
 ╰─────────────╯
 
 *Other Menu*
@@ -630,6 +592,17 @@ case 'apakah':
 					Aikko.sendMessage(from, 'Pertanyaan : *'+apakah+'*\n\nJawaban : '+ kah, text, { quoted: mek })
 					await (sender)
 					break
+case 'ganteng': case 'cantik': case 'jelek': case 'goblok':  case 'bego': case 'pinter': case 'jago': case 'nolep': case 'monyet':  case 'babi': case 'beban': case 'baik': case 'jahat': case 'anjing': case 'haram': case 'kontol': case 'pakboy': case 'pakgirl': case 'wibu': case 'hebat': case 'sadboy': case 'sadgirl':  
+					if (!isGroup) return reply(mess.only.group)
+               	await (sender)
+ 				   jds = []
+				   const A1 = groupMembers
+  		 		const B1 = groupMembers
+ 				   const C1 = A1[Math.floor(Math.random() * A1.length)]
+				   D1 = `Yang *ter${command}* disini adalah @${C1.jid.split('@')[0]}`                  
+				   jds.push(C1.jid)
+				   mentions(D1, jds, true)
+				   break
 //══════════[ other ]══════════//
 case 'sb':
 case 'sewabot':
@@ -786,6 +759,83 @@ buff = await getBuffer(anu.screenshot)
 Aikko.sendMessage(from, buff, image, {quoted: ftrol, caption : teks})
 break
 //Logo Menu
+case 'pornhub':
+if (isBanned) return reply(mess.banned)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Deffri|Gans`)
+var m = q
+var m1 = m.split("|")[0];
+var m2 = m.split("|")[1]; 
+reply(mess.wait)
+query = args.join (" ")
+bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/pornhub?text=${m1}&text2=${m2}&apikey=Alphabot`)
+Aikko.sendMessage(from, bf, image, { quoted: froxx, caption: 'Nah Kak Jangan Lupa Support DEFFBOTz yah Kak😁' })
+break
+case 'halloween2':
+if (isBanned) return reply(mess.banned)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Deffri|Gans`)
+var m = q
+var m1 = m.split("|")[0];
+var m2 = m.split("|")[1]; 
+reply(mess.wait)
+query = args.join (" ")
+bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/halloween2?text=${m1}&text2=${m2}&apikey=Alphabot`)
+Aikko.sendMessage(from, bf, image, { quoted: froxx, caption: 'Nah Kak Jangan Lupa Support DEFFBOTz yah Kak😁' })
+break
+case 'ninjalogo':
+if (isBanned) return reply(mess.banned)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Deffri|Gans`)
+var m = q
+var m1 = m.split("|")[0];
+var m2 = m.split("|")[1]; 
+reply(mess.wait)
+query = args.join (" ")
+bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/ninja?text=${m1}&text2=${m2}&apikey=Alphabot`)
+Aikko.sendMessage(from, bf, image, { quoted: froxx, caption: 'Nah Kak Jangan Lupa Support DEFFBOTz yah Kak😁' })
+break
+case 'game8bit':
+if (isBanned) return reply(mess.banned)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Deffri|Gans`)
+var m = q
+var m1 = m.split("|")[0];
+var m2 = m.split("|")[1]; 
+reply(mess.wait)
+query = args.join (" ")
+bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/game8bit?text=${m1}&text2=${m2}&apikey=Alphabot`)
+Aikko.sendMessage(from, bf, image, { quoted: froxx, caption: 'Nah Kak Jangan Lupa Support DEFFBOTz yah Kak😁' })
+break
+case 'horror':
+if (isBanned) return reply(mess.banned)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Deffri|Gans`)
+var m = q
+var m1 = m.split("|")[0];
+var m2 = m.split("|")[1]; 
+reply(mess.wait)
+query = args.join (" ")
+bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/horror?text=${m1}&text2=${m2}&apikey=Alphabot`)
+Aikko.sendMessage(from, bf, image, { quoted: froxx, caption: 'Nah Kak Jangan Lupa Support DEFFBOTz yah Kak😁' })
+break
+case 'tiktokmt':
+if (isBanned) return reply(mess.banned)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Deffri|Gans`)
+var m = q
+var m1 = m.split("|")[0];
+var m2 = m.split("|")[1]; 
+reply(mess.wait)
+query = args.join (" ")
+bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/gtiktok?text=${m1}&text2=${m2}&apikey=Alphabot`)
+Aikko.sendMessage(from, bf, image, { quoted: froxx, caption: 'Nah Kak Jangan Lupa Support DEFFBOTz yah Kak😁' })
+break
+case 'space3d':
+if (isBanned) return reply(mess.banned)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Deffri|Gans`)
+var m = q
+var m1 = m.split("|")[0];
+var m2 = m.split("|")[1]; 
+reply(mess.wait)
+query = args.join (" ")
+bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/space3d?text=${m1}&text2=${m2}&apikey=Alphabot`)
+Aikko.sendMessage(from, bf, image, { quoted: froxx, caption: 'Nah Kak Jangan Lupa Support DEFFBOTz yah Kak😁' })
+break
 case 'logokaneki':
 if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} DEFFBOTz`)
 reply(mess.wait)
@@ -1108,7 +1158,7 @@ case 'join':
             if (!q) return reply('Masukan link group')
             var codeInvite = hen.split('https://chat.whatsapp.com/')[1]
             if (!codeInvite) return reply('pastikan link sudah benar!')
-            var response = await deff.acceptInvite(codeInvite)
+            var response = await Aikko.acceptInvite(codeInvite)
             reply('SUKSES')
             } catch {
             reply('LINK ERROR!')
@@ -1281,7 +1331,7 @@ break
 case 'report':
 case 'lapor':
 					const laporan = body.slice(7)
-					if (args.length > 300) return deff.sendMessage(from, 'Maaf Teks Terlalu Panjang, Maksimal 300 Teks', msgType.text, {quoted: mek})
+					if (args.length > 300) return Aikko.sendMessage(from, 'Maaf Teks Terlalu Panjang, Maksimal 300 Teks', msgType.text, {quoted: mek})
 					stod = `${sender}`
 					const lapor = `*[LAPORAN EROR]*\nNomor : @${stod.split('@')[0]}\nPesan : ${laporan}`
 							var options = {
